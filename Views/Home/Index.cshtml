@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model List<UserListModel>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>LastName</td>
+            <td>Account Count</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.LastName</td>
+                <td>
+                    <GetAccountCount application-user-id="@item.Id"></GetAccountCount>
+                </td>
+                <td>
+                    <a asp-action="Create" asp-controller="Account" asp-route-id="@item.Id"
+                        class="btn btn-outline-dark">Create New Account</a>
+                </td>
+                <td>
+                    <a asp-action="GetByUserId" asp-controller="Account" asp-route-id="@item.Id"
+                        class="btn btn-outline-dark">Get Account</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

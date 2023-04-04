@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Software\\WinMvc\\CelilCavus.RepositoryDesiginPattern\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CelilCavus.RepositoryDesiginPattern.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CelilCavus.RepositoryDesiginPattern.props",
+      "PackagePath": "build\\CelilCavus.RepositoryDesiginPattern.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CelilCavus.RepositoryDesiginPattern.props",
+      "PackagePath": "buildMultiTargeting\\CelilCavus.RepositoryDesiginPattern.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CelilCavus.RepositoryDesiginPattern.props",
+      "PackagePath": "buildTransitive\\CelilCavus.RepositoryDesiginPattern.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

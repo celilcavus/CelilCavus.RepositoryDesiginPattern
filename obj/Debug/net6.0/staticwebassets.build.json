@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "haK/GjAihZcJIapMRkidNhg5r/aNvNLBe1O9+c2b7Go=",
+  "Source": "CelilCavus.RepositoryDesiginPattern",
+  "BasePath": "_content/CelilCavus.RepositoryDesiginPattern",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CelilCavus.RepositoryDesiginPattern\\wwwroot",
+      "Source": "CelilCavus.RepositoryDesiginPattern",
+      "ContentRoot": "D:\\Software\\WinMvc\\CelilCavus.RepositoryDesiginPattern\\wwwroot\\",
+      "BasePath": "_content/CelilCavus.RepositoryDesiginPattern",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Software\\WinMvc\\CelilCavus.RepositoryDesiginPattern\\wwwroot\\css\\Style.css",
+      "SourceId": "CelilCavus.RepositoryDesiginPattern",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\WinMvc\\CelilCavus.RepositoryDesiginPattern\\wwwroot\\",
+      "BasePath": "_content/CelilCavus.RepositoryDesiginPattern",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
+    }
+  ]
+}
